@@ -1,12 +1,12 @@
-# from replit import clear
 import random
 from word_list import word_list
-choosen_word=random.choice(word_list)
-import logo
-#cheeting
-print(f"the random word is:{(choosen_word)}")
 from logo import logo 
 print(logo )
+
+# #cheeting
+# print(f"the random word is:{(choosen_word)}")
+choosen_word=random.choice(word_list)
+
 blank=[]
 len= len(choosen_word)
 for _ in range(len):
